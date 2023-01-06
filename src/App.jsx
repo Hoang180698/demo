@@ -1,10 +1,12 @@
 import React from 'react'
-import Shopping from './components/shoping_cart/Shopping'
+import Shopping from './components/Shopping'
+import ShoppingCart from './components/ShoppingCart'
 
 function App() {
   return (
     <>
-      <Shopping />
+      {/* <Shopping /> chung 1 components */}
+      <ShoppingCart/>
     </>
   )
 }
